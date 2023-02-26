@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Copy to Clipboard Extension",
+    "version": "1.0",
+    "description": "Copy the content of the current webpage to the clipboard",
+    "action": {
+      "default_popup": "popup.html",
+      "icon": {
+       
+        "32": "./icons/icon_32",
+        "64": "./icons/icon_64",
+        "128": "./icons/icon_128"
+      }
+    },
+    "permissions": ["clipboardWrite"],
+    "host_permissions": ["<all_urls>"]
+  }
+  
